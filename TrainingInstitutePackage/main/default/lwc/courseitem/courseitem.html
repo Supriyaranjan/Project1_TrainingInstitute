@@ -1,0 +1,17 @@
+<!-- It displays the details of a course searched in Courses tab-->
+<template>
+    <div>
+        <label class="labelStyle" style="width: 250px">{itemName}</label>
+        <label class="labelStyle" style="width: 500px">{itemFamily}</label>
+        <lightning-button-icon class="iconContainer" icon-name={iconName} alternative-text="Details" title="Details" onclick={handleShowDetails}></lightning-button-icon>
+        <template if:true={showDetails}>
+            <div style="padding-top: 20px">
+                <br><p class="itemdetail">{itemDescription}</p>
+                <div class="slds-grid slds-gutters" style="margin:10px">
+                    <div class="slds-col">Course Price: {itemPrice}</div>
+                    <div class="slds-col">Trainer: {trainerName}</div>
+                </div>
+            </div>
+        </template>
+    </div>   
+</template>

@@ -1,0 +1,37 @@
+<!-- This is the main body of the training app -->
+<template>
+    <br>
+    <!-- This is the menu buttons list -->
+    <div style="margin-top: 20px; margin-bottom: 10px; background-color: skyblue;">
+        <lightning-button class="slds-m-left_x-small" label="Home" onclick={handleHomeClicked}></lightning-button>
+        <lightning-button label="Our Courses" onclick={handleCourseClicked}></lightning-button>
+        <lightning-button label="Estimate Price" onclick={handlePriceCalculator}></lightning-button>
+        <lightning-button label="Let's Connect" onclick={handleConnect}></lightning-button>
+    </div>
+    <!-- This is the home section of the app -->
+    <template if:true={displayHome}>
+        <div>
+            <img style="height: 350px; width: 100%" src={trainingimg} alt={trainingimage} />
+            <br><br>
+            <c-getaccounts></c-getaccounts>
+        </div>
+    </template>
+    <!-- This is the Course section of the app -->
+    <template if:true={displayCourse}>
+        <div>
+            <c-getproducts></c-getproducts>
+        </div>
+    </template>
+    <!-- This is the Price Calculation section of the app -->
+    <template if:true={displayPriceCalculator}>
+        <div>
+            <c-pricecalculator></c-pricecalculator>
+        </div>
+    </template>
+    <!-- This is the Connect with us page of the app -->
+    <template if:true={displayConnectPage}>
+        <div>
+            <c-webtoleadwebform></c-webtoleadwebform>
+        </div>
+    </template>    
+</template>

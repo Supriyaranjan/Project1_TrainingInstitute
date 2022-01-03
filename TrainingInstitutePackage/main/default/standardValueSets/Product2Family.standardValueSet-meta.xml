@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Salesforce Admin and Development</fullName>
+        <default>false</default>
+        <label>Salesforce Admin and Development</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Full Stack Development</fullName>
+        <default>false</default>
+        <label>Full Stack Development</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dot Net Development</fullName>
+        <default>false</default>
+        <label>Dot Net Development</label>
+    </standardValue>
+</StandardValueSet>

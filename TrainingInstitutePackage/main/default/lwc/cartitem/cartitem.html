@@ -1,0 +1,11 @@
+<!-- This is the component to display courses added to cart during price calculation -->
+<template>
+    <lightning-card title={itemName}>
+        <lightning-button-icon icon-name="utility:delete" alternative-text="Delete" slot="actions" onclick={handleDeleteClick}></lightning-button-icon>  
+        <div class="slds-p-around_medium lgc-bg textstylecommon">
+            <p>Quantity: {itemQuantity}</p>
+            <p>Price: ${itemTotalPrice}</p>        
+        </div>
+    </lightning-card>
+    
+</template>

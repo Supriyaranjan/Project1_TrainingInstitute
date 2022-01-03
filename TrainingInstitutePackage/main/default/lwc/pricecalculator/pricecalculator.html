@@ -1,0 +1,37 @@
+<!-- This is the price calculator page -->
+<template>
+    <lightning-card title="Course Search" icon-name="standard:search">
+        <c-searchcourse oncourseresult={handleCourseResult}></c-searchcourse>
+    </lightning-card>
+    <!-- Searched Courses section -->
+    <lightning-card title="Searched Courses">
+    <div class="slds-grid slds-gutters slds-wrap" style="margin:10px">
+        <template for:each={mySearchedCourses} for:item="item" for:index="index">
+            <div class="slds-col itemcarddisplay slds-size_1-of-4" key={item.Id} onaddclicked={addToCart}>
+                <c-shopitem
+                data-index={index}
+                item-id={item.Id}
+                item-name={item.Name}
+                item-family={item.Family}
+                item-description={item.Description}></c-shopitem>
+            </div>
+        </template>
+    </div>
+</lightning-card>
+<!-- This is the course cart -->
+<lightning-card title="My Cart">
+    <p class="slds-p-around_medium lgc-bg">Total Price: ${totalCartPrice}</p>
+    <div class="slds-grid slds-gutters slds-wrap" style="margin:10px">
+        <template for:each={myCoursesCart} for:item="item" for:index="index">
+            <div class="slds-col itemcarddisplay slds-size_1-of-4" key={item.itemid} ondeleteitem={handleCartItemDelete}>
+                <c-cartitem
+                data-index={index}
+                item-id={item.itemid}
+                item-name={item.name}
+                item-price={item.price}
+                item-quantity={item.quantity}></c-cartitem>
+            </div>
+        </template>
+    </div>
+</lightning-card> 
+</template>

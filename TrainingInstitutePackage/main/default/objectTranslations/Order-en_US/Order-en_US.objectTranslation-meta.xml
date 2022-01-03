@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Training Deal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Training Deals</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <name>Deal_Discount</name>
+        <subject><!-- Deal Discount --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Deal_Discount_task</name>
+        <subject><!-- Deal Discount task --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Final_Approval</name>
+        <subject><!-- Final Approval --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Recall</name>
+        <subject><!-- Recall --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Rejection</name>
+        <subject><!-- Rejection --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

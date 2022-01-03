@@ -1,0 +1,9 @@
+<!-- this is the component for searching the courses -->
+<template>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="text" label="Course name"  maxlength="10" value={input} onchange={courseTextChange}></lightning-input>  
+    </div>
+    <div class="slds-p-around_medium">
+    <lightning-button label="Get Courses" icon-name="standard:search" onclick={getProductsByName}></lightning-button>
+    </div>   
+</template>

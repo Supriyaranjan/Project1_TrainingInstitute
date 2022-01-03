@@ -1,0 +1,31 @@
+.formsect{
+	width: 65%;
+    float: left;
+    text-align: center;
+	font-family: georgia, "times new roman", serif;
+	font-style: italic;
+}
+
+.rightsect{
+	width: 30%;
+    float: right;
+    text-align: center;
+	font-family: georgia, "times new roman", serif;
+	font-style: italic;
+}
+
+.blockDispCommon{
+    display: block;
+    background-color: skyblue;
+    color: white;
+    border: solid;
+    border-color: snow;
+    border-radius: 10px;
+}
+
+.list{
+display: block;
+margin: 10px;
+font-size: large;
+
+}

@@ -1,0 +1,36 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": false
+        },
+        {
+            "path": "TrainingInstitutePackage",
+            "package": "TrainingInstitutePackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        }
+    ],
+    "name": "TrainingInstituteProject",
+    "namespace": "",
+    "sfdcLoginUrl": "https://creative-impala-cj7wd7-dev-ed.my.salesforce.com/",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "CustomPackage": "0Ho5f000000Cb10CAC",
+        "TrainingInstitutePackage": "0Ho5f000000Cb15CAC",
+        "TrainingInstitutePackage@0.1.0-1": "04t5f000000GYLMAA4",
+        "TrainingInstitutePackage@0.1.0-2": "04t5f000000GYLWAA4",
+        "TrainingInstitutePackage@0.1.0-3": "04t5f000000GYLbAAO",
+        "TrainingInstitutePackage@0.1.0-4": "04t5f000000GZAgAAO",
+        "TrainingInstitutePackage@0.1.0-5": "04t5f000000GZNxAAO",
+        "TrainingInstitutePackage@0.1.0-6": "04t5f000000GZWIAA4",
+        "TrainingInstitutePackage@0.1.0-7": "04t5f000000GZWNAA4",
+        "TrainingInstitutePackage@0.1.0-8": "04t5f000000GZfMAAW",
+        "TrainingInstitutePackage@0.1.0-9": "04t5f000000GZjZAAW",
+        "TrainingInstitutePackage@0.1.0-10": "04t5f000000GZwCAAW",
+        "TrainingInstitutePackage@0.1.0-11": "04t5f000000GZwMAAW",
+        "TrainingInstitutePackage@0.1.0-12": "04t5f000000GZwvAAG",
+        "TrainingInstitutePackage@0.1.0-13": "04t5f000000Gb9EAAS"
+    }
+}

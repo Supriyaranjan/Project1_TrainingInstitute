@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Educational Institute</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Educational Institutes</value>
+    </caseValues>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>College Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>School Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- College Record Type --></label>
+        <name>College_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- School Record Type --></label>
+        <name>School_Record_Type</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

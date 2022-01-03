@@ -1,0 +1,17 @@
+.blockDispCommon{
+    display: block;
+    background-color: skyblue;
+    color: white;
+    border: solid;
+    border-color: snow;
+    border-radius: 10px;
+}
+
+/* Section for display of cards for Home/Review */
+.blockDispAccount{
+    height: 10rem; 
+    width: 14rem;
+    /*padding: 5px;*/
+    margin-top:5px;
+    margin-bottom: 5px;
+}

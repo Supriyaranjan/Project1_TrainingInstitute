@@ -1,0 +1,19 @@
+<!-- This is the component for the course items during price calculation -->
+<template>
+    <lightning-card title={itemName}>
+        <lightning-button-icon icon-name="utility:add" alternative-text="Add" slot="actions" onclick={handleAddClick}></lightning-button-icon>
+        <div class="slds-p-around_medium lgc-bg textstylecommon">
+            <p>Unit Price: ${itemPrice}</p>
+            <label class="textstylecommon" for="text-input-id-53">Quantity</label>
+            <input type="number" maxlength="2" value={input} onchange={getQuantity} class="slds-input"></input>
+            <!--lightning-input type="number"  maxlength="2" value={input} onchange={getQuantity}></lightning-input-->  
+        </div>
+        
+        <div slot="footer">
+            <template if:true={displayFooter}>
+                <h6 class="slds-text-color_success">Added To Cart</h6>
+            </template>
+        </div>
+        
+    </lightning-card>  
+</template>

@@ -1,0 +1,9 @@
+:host {
+    --sds-c-card-color-background: skyblue;
+    --sds-c-card-text-color: white;
+}
+
+.textstylecommon{
+    color: white;
+    font-family: georgia, "times new roman", serif;
+}

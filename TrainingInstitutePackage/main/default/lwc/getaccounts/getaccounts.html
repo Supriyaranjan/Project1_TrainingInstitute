@@ -1,0 +1,19 @@
+<!-- Display the accounts-->
+<template>
+    <lightning-card  title="Top Accounts" icon-name="standard:account">
+        <div class="slds-grid slds-gutters slds-wrap" style="margin:10px">
+            <template for:each={myAccounts} for:item="item" for:index="index">
+                <div class="slds-col blockDispCommon blockDispAccount" key={item.Id} data-index={index}>
+                    <c-blockitemdisp
+                    data-index={index}
+                    item-id={item.Id}
+                    item-name={item.Name}
+                    item-property={item.Rating}
+                    item-description={item.Description}
+                    title='Rating'></c-blockitemdisp>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+    
+</template>
