@@ -7,10 +7,10 @@ Salesforce CRM Project Utilizing Sales Cloud and Experience Cloud Site for Publi
 
 ## Technologies Used
 
--Apex
--SOQL/SOSL
--Javascript
--HTML/CSS
+- Apex.
+- SOQL/SOSL.
+- Javascript.
+- HTML/CSS.
 
 ## Features
 
